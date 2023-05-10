@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: inherit;
+    list-style-type: none;
+}
+
+img {
+    height: 80px;
+    width: 120px;
+}
+
+header {
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+}
+header .head nav ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-top: 35px;    
+}
+header {
+    border-bottom: solid red;
+}
+.info {
+    height: 91vh;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    border-bottom: solid red;
+    background-image: url(/img/samolet.jpg);
+    background-size: cover;
+    align-items: center;
+
+}
+
+.info p {
+    width: 55%;
+    border: 1px solid;
+    border-radius: 10px;
+    text-align: center;
+    padding: 40px;
+    background-color: white;
+}
+
+.trust {
+    height: 100vh;
+    padding: 80px 80px;
+    background-image: url(/img/trust.jpg);
+    background-image: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(70%)
+}
+
+.trust h3 {
+    text-align: center;
+    font-size: 50px;
+}
+.trust h3 span {
+    background-color: red;
+    text-align: center;
+    font-size: 50px;
+}
+
+.trust div  {
+    display: grid;
+    grid-template-columns:repeat(4, 1fr) ;
+    padding-top: 80px;
+    padding-left: 250px;
+
+}
